@@ -1,0 +1,16 @@
+{
+  "score": 85,
+  "feedback": [],
+  "details": {
+    "sections_found": 4,
+    "total_sections": 4,
+    "bullet_points": 52,
+    "bullet_points_with_metrics": 49,
+    "bullet_points_strong_verbs": 20,
+    "word_count": 1363,
+    "length_ok": false,
+    "has_contact": true
+  },
+  "timestamp": "2026-03-29T23:41:18.543465",
+  "analyzer_version": "1.2"
+}

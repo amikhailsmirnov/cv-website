@@ -1,0 +1,31 @@
+{
+  "word_count": 1363,
+  "line_count": 117,
+  "sections_found": 4,
+  "sections_list": [
+    "SUMMARY",
+    "EXPERIENCE\n",
+    "CORE SKILLS\n",
+    "EDUCATION\n"
+  ],
+  "bullet_points": 52,
+  "metrics_found": 44,
+  "metrics_list": [
+    "50%",
+    "30%",
+    "250%",
+    "40%",
+    "60%",
+    "3 m",
+    "25%",
+    "15%",
+    "40%",
+    "20%"
+  ],
+  "strong_verb_count": 25,
+  "weak_phrase_count": 0,
+  "has_email": true,
+  "has_linkedin": true,
+  "has_telegram": true,
+  "timestamp": 1774873684.526389
+}

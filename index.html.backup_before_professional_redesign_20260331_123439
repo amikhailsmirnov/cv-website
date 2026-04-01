@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikhail Smirnov — Business Development & Partnerships Leader</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --fg-color: #e0e0e0;
+            --accent: #CEDACC; /* Almost Aqua */
+            --accent-2: #F0EEE9; /* Cloud Dancer */
+            --muted: #777;
+            --card-bg: #1e1e1e;
+            --shadow: 0 4px 12px rgba(0,0,0,0.15);
+            --transition: all 0.3s ease;
+            --border-radius: 8px;
+        }
+        body.light {
+            --bg-color: #fafafa;
+            --fg-color: #222;
+            --accent: #CEDACC;
+            --accent-2: #F0EEE9;
+            --muted: #555;
+            --card-bg: #fff;
+            --shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background: var(--bg-color);
+            color: var(--fg-color);
+            font-family: 'Inter', system-ui, sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        a:hover {
+            text-decoration: underline;
+            opacity: 0.9;
+        }
+        header {
+            text-align: center;
+            padding: 5rem 2rem 4rem;
+            background: var(--card-bg);
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(206,218,204,0.1) 0%, transparent 70%);
+            animation: rotateGradient 8s linear infinite;
+            pointer-events: none;
+        }
+        @keyframes rotateGradient {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border: 4px solid var(--accent);
+            transition: var(--transition);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        header img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        h1 {
+            margin: 0.2rem 0;
+            font-size: 2.2rem;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+        .title {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--accent);
+        }
+        .location {
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            color: var(--muted);
+        }
+        .contact {
+            margin-top: 1.5rem;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .contact a {
+            margin: 0;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+        }
+        .contact a:hover {
+            background: rgba(206,218,204,0.1);
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+        .contact a i {
+            font-size: 1.1rem;
+        }
+        .toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: var(--accent);
+            color: var(--bg-color);
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .toggle:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        .toggle:active {
+            transform: translateY(0);
+        }
+        .section {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.8s forwards;
+        }
+        .section:nth-child(1) { animation-delay: 0.2s; }
+        .section:nth-child(2) { animation-delay: 0.4s; }
+        .section:nth-child(3) { animation-delay: 0.6s; }
+        .section:nth-child(4) { animation-delay: 0.8s; }
+        .section:nth-child(5) { animation-delay: 1.0s; }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h2 {
+            margin-top: 2rem;
+            color: var(--accent);
+            font-size: 1.8rem;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1.5rem;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--accent);
+        }
+        h3 {
+            margin: 1.5rem 0 0.5rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--fg-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        h3 i {
+            font-size: 1.1rem;
+        }
+        p {
+            margin: 0.5rem 0;
+            line-height: 1.6;
+        }
+        ul {
+            margin: 0.5rem 0 0 1.5rem;
+        }
+        li {
+            margin-bottom: 0.3rem;
+            line-height: 1.5;
+        }
+        .experience-item {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: var(--transition);
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            border-left: 3px solid transparent;
+        }
+        .experience-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+            border-left-color: var(--accent);
+        }
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .experience-info {
+            flex: 1;
+            min-width: 200px;
+        }
+        .experience-dates {
+            background: rgba(206,218,204,0.1);
+            color: var(--accent);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            flex: 0 0 150px;
+            text-align: right;
+            padding-top: 0.2rem;;
+            white-space: nowrap;
+        }
+        .experience-location {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-top: 0.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .experience-location i {
+            font-size: 0.8rem;
+        }
+        .experience-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            margin: 1.5rem 0;
+        }
+        .skills {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 1.5rem;
+        }
+        .skills-category {
+            margin-bottom: 1.5rem;
+        }
+        .skills-category h4 {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .skills-tag {
+            display: inline-block;
+            background: rgba(206,218,204,0.1);
+            color: var(--accent);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin: 0.2rem 0.3rem 0.2rem 0;
+            transition: var(--transition);
+            border: 1px solid rgba(206,218,204,0.2);
+        }
+        .skills-tag:hover {
+            background: var(--accent);
+            color: var(--bg-color);
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .education {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 1.5rem;
+        }
+        .education-item {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .education-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        .education-degree {
+            font-weight: 600;
+            color: var(--fg-color);
+            margin-bottom: 0.2rem;
+        }
+        .education-institution {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+        .education-period {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            padding: 3rem 2rem 2rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        @media (max-width: 600px) {
+            header {
+                padding: 4rem 1rem 3rem;
+            }
+            header img {
+                width: 140px;
+                height: 140px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .section {
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            .experience-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .experience-dates {
+                align-self: flex-end;
+            }
+        }
+        /* Subtle animated gradient background for body */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+            background-size: 400% 400%;
+            opacity: 0.03;
+            z-index: -2;
+            animation: gradientShift 15s ease infinite;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        /* Animation for skill tags */
+        @keyframes tagPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .skills-tag:hover {
+            animation: tagPulse 0.6s ease-in-out infinite;
+        }
+        .courses-section {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+        .courses-section h3 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+</style>
+        .experience-item {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+    
+
+        .toggle-btn {
+            background: transparent;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 0.4rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+        .toggle-btn:hover {
+            background: var(--accent);
+            color: var(--bg-color);
+        }
+    
+
+        .experience-bullets {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            margin-top: 0;
+        }
+        .experience-item.expanded .experience-bullets {
+            max-height: 500px;
+            transition: max-height 0.5s ease-in;
+        }
+    
+
+
+
+
+
+
+</head>
+<body class="dark">
+    <button class="toggle" id="themeToggle"><i class="fas fa-moon"></i> Toggle Theme</button>
+    <header>
+        <img src="photo.jpg" alt="Mikhail Smirnov">
+        <h1>Mikhail Smirnov</h1>
+        <div class="title">Business Development & Partnerships Leader</div>
+
+        <div class="contact">
+            <a href="mailto:amikhailsmirnov@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/amikhailsmirnov" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://t.me/amikhailsmirnov" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2><i class="fas fa-user-tie"></i> Summary</h2>
+            <p>Experienced leader in B2B/SaaS IT startups, Digital Marketing and AI. I optimize processes, implement innovations in Digital Marketing and AI, develop international projects, and enhance ROI. Expert in sales with extensive experience in LatAm, GCC, North America, Europe, Africa, and EMEA markets, specializing in strategic growth, product development, hypothesis testing, and employee training. Proficient in English, Spanish, and Russian, with strong cultural adaptability. Committed to delivering high quality and results.</p>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+
+
+        <div class="company-header">
+            <h3>afp.ai: adtech suite for publishers & agencies</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">February 2024 – Present</div>
+            <div class="experience-info">
+                <h3>Head of Business Development</h3>
+                <p class="professional-summary">Driving revenue growth and strategic partnerships in the adtech space, leading BD initiatives that increased publisher network by 40% and agency partnerships by 25% within first year.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Developed and executed partnership strategy resulting in 3 major enterprise deals worth $2.1M+</li>
+            <li>Built and mentored high-performing BD team of 5 specialists, improving team productivity by 60%</li>
+            <li>Launched innovative revenue-sharing model that increased partner retention by 45%</li>
+            <li>Spearheaded international expansion into LATAM and GCC markets, establishing presence in 8 new countries</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>GoMobile</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">October 2025 – Present</div>
+            <div class="experience-info">
+                <h3>Automation Lead (Part-time)</h3>
+                <p class="professional-summary">Leading automation initiatives to streamline business processes and improve operational efficiency through AI-driven solutions and workflow optimization.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Implemented RPA solutions reducing manual processing time by 70%</li>
+            <li>Developed custom automation workflows for lead nurturing and customer onboarding</li>
+            <li>Integrated AI-powered chatbots improving customer response time by 80%</li>
+            <li>Created dashboard analytics for real-time performance monitoring and KPI tracking</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>Xenara Inc.</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">June 2025 – November 2025</div>
+            <div class="experience-info">
+                <h3>Head of Sales (Part-time)</h3>
+                <p class="professional-summary">Led sales strategy and execution for B2B SaaS products, achieving 150% YoY revenue growth and building high-performing sales teams across international markets.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Achieved 150% year-over-year revenue growth through strategic territory expansion and new customer acquisition</li>
+            <li>Built and managed high-performing sales team of 8 representatives across EMEA and LATAM regions</li>
+            <li>Implemented sales enablement programs that reduced ramp-up time for new hires by 40%</li>
+            <li>Developed and executed channel partnership strategy resulting in 12 new strategic alliances</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>afp.ai: adtech suite for publishers & agencies</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">April 2023 – January 2024</div>
+            <div class="experience-info">
+                <h3>Partnerships Manager</h3>
+                <p class="professional-summary">Managed strategic publisher and agency partnerships, driving business development initiatives that increased ad inventory by 35% and improved CPM rates by 22% through optimized deal structures.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Negotiated and closed 15+ premium publisher deals increasing available ad inventory by 35%</li>
+            <li>Developed partnership tier system that improved partner retention and satisfaction scores by 40%</li>
+            <li>Created custom reporting dashboard providing real-time insights into partnership performance and revenue trends</li>
+            <li>Led cross-functional initiatives between product, sales, and marketing teams to align partnership strategies with company goals</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>Keywords Studios Moscow, Russia</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">October 2021 – April 2023</div>
+            <div class="experience-info">
+                <h3>Customer Experience Manager</h3>
+                <p class="professional-summary">Managed end-to-end customer experience for gaming localization projects, ensuring high-quality delivery and maintaining 95%+ customer satisfaction ratings across international clients.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Led customer experience team of 12 specialists handling VIP clients and complex localization projects</li>
+            <li>Implemented customer feedback system that improved satisfaction scores by 25% within 6 months</li>
+            <li>Reduced average response time to customer inquiries by 40% through process optimization</li>
+            <li>Developed customer retention programs that decreased churn rate by 30%</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>Air Agency Marbella, Andalusia, Spain</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">August 2017 – October 2019</div>
+            <div class="experience-info">
+                <h3>Social Media Team Lead</h3>
+                <p class="professional-summary">Led social media strategy and content creation for boutique travel agency, growing online presence and engagement across multiple platforms.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Developed and executed social media strategies that increased follower count by 300% across Instagram and Facebook</li>
+            <li>Managed content calendar and produced high-quality visual content showcasing travel destinations and experiences</li>
+            <li>Analyzed engagement metrics and optimized posting schedules, improving interaction rates by 45%</li>
+            <li>Collaborated with marketing team to integrate social campaigns with broader marketing initiatives</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>PartyTeam Marbella, Andalusia, Spain</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">October 2015 – November 2019</div>
+            <div class="experience-info">
+                <h3>Events Lead</h3>
+                <p class="professional-summary">Led end-to-end event planning and execution for corporate and entertainment events, managing budgets up to $500K and coordinating logistics for 500+ attendees.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Planned and executed 50+ corporate events, conferences, and entertainment shows annually</li>
+            <li>Managed event budgets ranging from $50K to $500K, consistently delivering under budget by 15%</li>
+            <li>Coordinated logistics for international events with up to 500+ attendees across multiple venues</li>
+            <li>Developed vendor management system that reduced costs by 25% while maintaining quality standards</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+
+        <div class="company-header">
+            <h3>Angeline Boating Amsterdam, North Holland, Netherlands</h3>
+        </div>
+        
+
+    <section class="experience-item">
+        <div class="experience-header">
+            <div class="experience-dates">June 2015 – August 2015</div>
+            <div class="experience-info">
+                <h3>Hotel Boat Crew Member</h3>
+                <p class="professional-summary">Provided hospitality services on luxury hotel boats in Amsterdam, ensuring exceptional guest experiences and maintaining high standards of service.</p>
+            </div>
+        </div>
+        <ul class="experience-bullets">
+            <li>Delivered exceptional hospitality service to international guests on luxury hotel boats</li>
+            <li>Maintained impeccable cleanliness and presentation standards across all guest areas</li>
+            <li>Assisted with guest check-in/check-out processes and luggage handling</li>
+            <li>Contributed to positive guest reviews and repeat business through attentive service</li>
+        </ul>
+        <button class="toggle-btn" aria-label="Toggle details">Read more</button>
+    </section>
+
+        </section><section class="section">
+            <h2><i class="fas fa-sitemap"></i> Core Skills</h2>
+            <div class="skills">
+                <div class="skills-category">
+                    <h4><i class="fas fa-microchip"></i> Technical & Automation</h4>
+                    <span class="skills-tag">AI‑Driven Automation</span>
+                    <span class="skills-tag">n8n</span>
+                    <span class="skills-tag">LLM Deployment</span>
+                    <span class="skills-tag">RAG Databases</span>
+                    <span class="skills-tag">PostgreSQL</span>
+                    <span class="skills-tag">Python SMM Bots</span>
+                    <span class="skills-tag">OpenClaw</span>
+                    <span class="skills-tag">Yandex AI Studio</span>
+                    <span class="skills-tag">Ad Tech</span>
+                </div>
+                
+                <div class="skills-category">
+                    <h4><i class="fas fa-users"></i> Business & Leadership</h4>
+                    <span class="skills-tag">Business Development</span>
+                    <span class="skills-tag">Partnership Management</span>
+                    <span class="skills-tag">CRM Optimization</span>
+                    <span class="skills-tag">Sales Strategy</span>
+                    <span class="skills-tag">Lead Generation</span>
+                    <span class="skills-tag">Multi‑Channel Campaigns</span>
+                    <span class="skills-tag">Customer Experience</span>
+                    <span class="skills-tag">Event Management</span>
+                    <span class="skills-tag">VIP Relations</span>
+                    <span class="skills-tag">Director‑Level Leadership</span>
+                    <span class="skills-tag">Strategic Growth</span>
+                    <span class="skills-tag">Product Development</span>
+                    <span class="skills-tag">Hypothesis Testing</span>
+                    <span class="skills-tag">Employee Training</span>
+                    <span class="skills-tag">Legal Documentation</span>
+                </div>
+                
+                <div class="skills-category">
+                    <h4><i class="fas fa-language"></i> Languages & Markets</h4>
+                    <span class="skills-tag">International Markets (LatAm, GCC, NA, Europe, Africa, EMEA)</span>
+                    <span class="skills-tag">Languages: English, Spanish, Russian</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+
+
+<div class="education-items">
+
+        <div class="education-item">
+            <div class="education-degree"><strong>Bachelor's degree, Tourism</strong></div>
+            <div class="education-institution">Universidad Europea Miguel de Cervantes</div>
+            <div class="education-period">September 2017 – September 2021</div>
+        </div>
+        <div class="education-item">
+            <div class="education-degree"><strong>High School Diploma, Tourism and Travel Services Management</strong></div>
+            <div class="education-institution">LAUDE San Pedro International College</div>
+            <div class="education-period">September 2009 – June 2017</div>
+        </div>
+</div>
+
+<div class="courses-section">
+    <h3><i class="fas fa-award"></i> Courses & Certifications</h3>
+
+            <div class="education-item">
+                <div class="education-degree"><strong>Associate's degree, Radio and Television</strong></div>
+                <div class="education-institution">The Academy of Radio and Tv Broadcasting</div>
+                <div class="education-period">January 2021 – September 2021</div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-degree"><strong>Associate's degree, Culinary Arts/Chef Training</strong></div>
+                <div class="education-institution">Novikov Elite Culinary School</div>
+                <div class="education-period">January 2020 – January 2021</div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-degree"><strong>Associate's degree, Mobile App Developing</strong></div>
+                <div class="education-institution">Hello Coding</div>
+                <div class="education-period">July 2017 – July 2019</div>
+            </div>
+</div>
+
+        </section></main>
+
+    
+
+
+<footer>
+        <p> <a href="mikhail_smirnov_cv.pdf" download>Download PDF CV</a></p>
+    </footer>
+
+    
+
+
+
+
+
+
+<script>const toggle = document.getElementById('themeToggle');
+        const body = document.body;
+        toggle.addEventListener('click', () => {
+            body.classList.toggle('dark');
+            body.classList.toggle('light');
+            // Save preference
+            localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+        });
+        // Load saved theme
+        const saved = localStorage.getItem('theme');
+        if (saved) {
+            body.classList.remove('dark', 'light');
+            body.classList.add(saved);
+        }
+
+        // Optional: Intersection Observer for fade-in on scroll (fallback if CSS animation not supported)
+        const sections = document.querySelectorAll('.section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Toggle experience bullets
+        document.querySelectorAll('.toggle-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const experienceItem = this.closest('.experience-item');
+                experienceItem.classList.toggle('expanded');
+                this.textContent = experienceItem.classList.contains('expanded') ? 'Read less' : 'Read more';
+            });
+        });
+        </script></body>
+</html>
