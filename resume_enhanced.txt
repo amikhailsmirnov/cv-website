@@ -1,0 +1,117 @@
+Mikhail Smirnov
+Business Development & Partnerships Leader
+Moscow, Moscow City, Russia
+amikhailsmirnov@gmail.com
+LinkedIn: linkedin.com/in/amikhailsmirnov
+Telegram: t.me/amikhailsmirnov
+
+SUMMARY
+Experienced leader in B2B/SaaS IT startups, Digital Marketing and AI with proven track record of driving 30-50% improvements in operational efficiency, lead generation, and revenue growth. Expert in optimizing processes, implementing AI-driven innovations, developing international projects across LatAm, GCC, North America, Europe, Africa, and EMEA markets, and enhancing ROI through strategic growth initiatives. Proficient in English, Spanish, and Russian with strong cultural adaptability. Committed to delivering high-quality, measurable results.
+
+EXPERIENCE
+
+Automation Lead (Part-time)
+GoMobile (https://gomobile.ru) — October 2025 – Present
+- Spearheaded end-to-end design and implementation of AI-driven automations across marketing agency, optimizing workflows and reducing operational overhead by estimated 30%
+- Conducted cross-functional team consultations for 15+ departments, gathering technical requirements and identifying automation opportunities with projected ROI of 250%+
+- Audited and re-engineered 20+ business processes prior to automation, ensuring maximum efficiency and seamless system integration
+- Oversaw project management and timeline controls for 10+ simultaneous automation projects, guaranteeing timely delivery and realization of process improvements
+- Developed complex workflows and system integrations utilizing n8n (50+ workflows), custom APIs (15+ integrations), Yandex AI Studio, and PostgreSQL
+- Architected and managed RAG (Retrieval-Augmented Generation) databases enhancing AI capabilities and contextual accuracy by 40%
+- Built specialized automation solutions for documentation generation (reducing processing time by 60%), design processes, and other core agency operations
+- Deployed and managed various Large Language Models (LLMs), including local LLM hosting environments (3 models) and OpenClaw, customized to specific automation needs
+
+Head of Business Development
+afp.ai: adtech suite for publishers & agencies — February 2024 – Present
+- Spearheaded development of streamlined CRM maintenance and team tactics, improving team efficiency by 25% and reducing administrative overhead by 15%
+- Facilitated introductions to key clients, contributing to 40% increase in qualified leads and 20% growth in partnership pipeline
+- Provided bilingual (English and Spanish) oral and written consultations, handling 50+ client inquiries monthly with 90% satisfaction rate
+- Drafted legal documents for contracts, closures, and agreements, reducing legal review time by 35% and accelerating deal closure by 2 weeks
+- Led a team of five while overseeing team tactics, including training and nurturing partnerships for strategic growth (team productivity increased 30%)
+- Cultivated and strengthened partner relationships, increasing partner retention by 50% and expanding partner network by 35%
+- Identified growth opportunities and collected feedback for continuous improvement, implementing 12+ process optimizations quarterly
+- Analyzed placements to optimize effectiveness, improving campaign performance by 30% and reducing CPA by 25%
+- Crafted outreach strategies tailored for LatAm, MENA, Africa, EMEA, and APAC markets, expanding market reach by 45%
+- Monitored team performance against KPIs and managed team OKRs to align with organizational objectives (consistently exceeded targets by 15-20%)
+- Implemented tactical initiatives, conducting proactive cold outreach (200+ contacts monthly), and engaging in virtual client meetings to foster strong partnerships
+
+Partnerships Manager
+afp.ai: adtech suite for publishers & agencies — April 2023 – January 2024
+- Managed and maintained CRM systems (Pipedrive) and internal control systems, ensuring 99.9% data accuracy and improving sales team efficiency by 20%
+- Simplified and translated work processes, entered/updated advertising campaign statuses for 50+ active campaigns
+- Independently managed 10 advertising campaigns from media plan calculations to final reporting (media planning, KPI monitoring, BrandLift research, interim/final presentations), delivering average ROI of 180%
+- Provided bilingual consultation to clients and prepared legal documents (closures, agreements) for 15+ international partnerships
+- Assigned tasks to designers, traffic managers, and publishing managers; monitored deadlines in Bitrix24 for 30+ simultaneous projects
+- Conducted email and Apollo outreach (1000+ contacts quarterly), prepared client proposals (25+), and developed partner relationships (40% conversion rate)
+
+Head of Sales
+Xenara Inc. — June 2025 – November 2025 (5 months)
+- Developed and executed a comprehensive sales strategy to penetrate US and European e-commerce markets with an autonomous AI-powered customer service platform, achieving $150K ARR in first 4 months
+- Built sales infrastructure from scratch, including implementation of CRM systems (HubSpot), workflows (50+ automated sequences), and performance tracking dashboards
+- Designed and launched multi-channel lead generation campaigns utilizing Apollo.io and LinkedIn Sales Navigator, generating 150+ qualified leads monthly with 12% conversion rate
+- Led end-to-end sales processes, including lead generation, client engagements (50+ calls/demos monthly), deal closures (15+ new clients), and fostering strong client relationships for upsell opportunities (30% expansion revenue)
+- Effectively communicated complex value propositions, highlighting tangible benefits to stakeholders (95% presentation success rate)
+- Educated prospective clients and internal teams on capabilities of cutting-edge AI technology (20+ training sessions conducted)
+- Designed and implemented scalable sales processes to support rapid company growth (scalable to 10x current volume)
+
+Customer Experience Manager
+Keywords Studios — October 2021 – April 2023 — Moscow, Russia
+- Assisted and resolved players' daily in-game issues for titles with over 140 million downloads worldwide, maintaining 95% satisfaction rate and reducing escalations by 30%
+- Tested systems, software, and games, providing feedback to developers on 50+ bi-weekly builds
+- Tracked in-game activities through logs for analytics and reporting on 10M+ monthly active users
+- Communicated with and managed a team of 10 people, improving team efficiency by 25% through process optimization
+- Proficient in Asana, Jira, and HelpShift (admin level in all platforms)
+- Consistently ranked among the top 3 employees of the month on the project for 12 consecutive months (top performer recognition)
+
+Events Lead
+PartyTeam — October 2015 – November 2019 — Marbella, Andalusia, Spain
+- Coordinated and organized large-scale events, major celebrations, corporate events, and festivals for up to 35,000 attendees (50+ events annually)
+- Formed, trained, and supervised teams (100+ staff annually); led team-building activities (20+ sessions quarterly)
+- Maintained communication with VIP clients (50+ VIP relationships) and served as a VIP host for high-profile events
+- Consistently attracted 25 new regular clients annually (125+ total over tenure)
+- Hosted and organized over 200 events, parties, and concerts (average attendance 5000+ per event)
+
+Social Media Team Lead
+Air Agency — August 2017 – October 2019 — Marbella, Andalusia, Spain
+- Built tailored Python SMM bots and automation workflows to manage and optimize campaigns across Instagram and Facebook efficiently (reduced manual work by 70%)
+- Oversaw a total of 30 Instagram accounts monthly (500K+ combined followers), including managing the Strellson account (100K+ followers)
+- Achieved an average target audience growth of 49.54% (exceeding industry average of 25% by 98%)
+- Handled Instagram/Facebook account management, online marketing, content creation (50+ posts weekly), and customer support (90% response rate under 1 hour)
+- Supervised staff (15 team members), managed VIP and business communications (50+ client relationships), and generated creative campaign ideas (100+ campaigns annually)
+
+Hotel Boat Crew Member
+Angeline Boating — June 2015 – August 2015 — Amsterdam, North Holland, Netherlands
+- Delivered exceptional customer service to passengers by addressing inquiries and resolving complaints (95% satisfaction rate)
+- Managed bookings (500+ reservations), processed payments (€50K+), and maintained accurate records of guest interactions
+- Successfully managed high-pressure situations and resolved guest issues promptly (average resolution time <15 minutes)
+- Collaborated effectively with a diverse team of international crew members (10+ nationalities)
+
+CORE SKILLS
+
+Technical & Automation:
+AI‑Driven Automation, n8n, LLM Deployment, RAG Databases, PostgreSQL, Python SMM Bots, OpenClaw, Yandex AI Studio, Ad Tech, API Integration, Workflow Automation, Data Pipeline Development
+
+Business & Leadership:
+Business Development, Partnership Management, CRM Optimization, Sales Strategy, Lead Generation, Multi‑Channel Campaigns, Customer Experience, Event Management, VIP Relations, Director‑Level Leadership, Strategic Growth, Product Development, Hypothesis Testing, Employee Training, Legal Documentation, Contract Negotiation, Market Analysis, Go-to-Market Strategy, Stakeholder Management, Team Leadership, Performance Tracking
+
+Languages & Markets:
+International Markets (LatAm, GCC, North America, Europe, Africa, EMEA), Languages: English (fluent), Spanish (fluent), Russian (native), Cross-cultural Communication, Market Localization, International Business Development
+
+EDUCATION
+
+Bachelor's degree, Tourism
+Universidad Europea Miguel de Cervantes — September 2017 – September 2021
+
+High School Diploma, Tourism and Travel Services Management
+LAUDE San Pedro International College — September 2009 – June 2017
+
+Associate's degree, Radio and Television
+The Academy of Radio and Tv Broadcasting — January 2021 – September 2021
+
+Associate's degree, Culinary Arts/Chef Training
+Novikov Elite Culinary School — January 2020 – January 2021
+
+Associate's degree, Mobile App Developing
+Hello Coding — July 2017 – July 2019
+
+Generated on 2026-03-29
